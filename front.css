@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+}
+
+img{
+    object-fit: fill;
+}
+
+
+
+
