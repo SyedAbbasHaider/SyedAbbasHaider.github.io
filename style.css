@@ -10,7 +10,7 @@
 
 /*add color to hover link*/
 .topnav a:hover{
-    background-color: aliceblue;
+    background-color: rgb(228, 153, 194);
     color: black;
 }
 
@@ -19,17 +19,21 @@
     color: black;
 }
 
-.social a{
-    color: rgb(206, 99, 158);
-}
 
 /*bring social icons bottom of page*/
-div.social{
-    color: rgb(206, 99, 158);
+.social ul{
     position: absolute;
-    font-size: x-large;
+    font-size: xx-large;
     top: 90%;
     left: 50%;
+    list-style: none;
+    display: flex;
+    transform: translate(-50%, -50%);
+}
+
+.social ul a {
+    color: rgb(206, 99, 158);
+    margin: 10px;
 }
 
 .fa:hover{
