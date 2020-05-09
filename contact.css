@@ -43,7 +43,7 @@ body{
 .social ul{
     display: flex;
     justify-content: center;
-    padding-top: 24%;
+    padding-top: 20%;
     padding-right: 2%;
 }
 
