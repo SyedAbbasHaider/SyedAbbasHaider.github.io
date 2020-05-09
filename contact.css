@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(209, 225, 231);
+    background-position:center;
+    background-attachment: fixed;
+    background-size :cover;
+    overflow-y: hidden;
+}
+
+
+.topnav{
+    color: black;
+    overflow: hidden;
+    padding-top: 3%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
+.topnav a{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*add color to hover link*/
+.topnav a:hover{
+    color: black;
+}
+
+.contact{
+    text-align: center;
+    font-size: large;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+}
+
+.contact p a{
+    color: black;
+    text-decoration: none;
+}
+
+.social ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 24%;
+    padding-right: 2%;
+}
+
+.social ul li{
+    display: inline-block;
+    font-size: xx-large;
+    list-style: none;
+}
+
+
+/*Add color to the social icons*/
+.social ul a {
+    color: black;
+    margin: 10px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+    }

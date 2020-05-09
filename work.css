@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(209, 225, 231);
+    background-position:center;
+    background-attachment: fixed;
+    background-size :cover;
+    overflow-y: scroll;
+}
+
+
+.topnav{
+    color: black;
+    overflow: hidden;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+
+.topnav a{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*add color to hover link*/
+.topnav a:hover{
+    color: black;
+}
+
+.work_intro{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: xx-large;
+    padding-top: 3%;
+}
+
+.work_info{
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 2%;
+}
+
+.work_info a{
+    text-decoration: none;
+    color: black;
+}
+
+.pick_up{
+    background-color: white;
+}
+
+.pick_up img{
+    padding-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pick_up p{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.social ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.social ul li{
+    display: inline-block;
+    font-size: xx-large;
+    list-style: none;
+}
+
+
+/*Add color to the social icons*/
+.social ul a {
+    color: black;
+    margin: 10px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+    }

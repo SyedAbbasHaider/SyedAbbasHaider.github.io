@@ -1,50 +1,40 @@
 body{
-    background-image: url(clouds.jpg);
-    background-color: rgb(187, 218, 203);
+    background-image: url(goldenbridge.jpg);
     background-position:center;
     background-attachment: fixed;
     background-size :cover;
     overflow-y: hidden;
 }
 
-.Bio{
-    font-family: 'Caveat', cursive;
-    text-align: center;
-    padding-top: 10%;
-    font-size: xx-large;
-}
-
-.Intro{
-    text-align: center;
-    padding-top: 5%;
-    font-size: large;
-}
 
 .topnav{
-    color: black;
     overflow: hidden;
-    padding-top: 3%;
-    padding-right: 5%;
 }
 
 .topnav a{
-    float: right;
+    float: left;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
 /*add color to hover link*/
 .topnav a:hover{
+    background-color: rgb(228, 153, 194);
     color: black;
 }
+
+/*add color to active link*/
+.topnav a.active{
+    color: black;
+}
+
 
 /*bring social icons bottom of page*/
 .social ul{
     position: absolute;
     font-size: xx-large;
     top: 90%;
-    left: 49%;
+    left: 48.5%;
     list-style: none;
     display: flex;
     transform: translate(-50%, -50%);
@@ -52,7 +42,7 @@ body{
 
 /*Add color to the social icons*/
 .social ul a {
-    color: black;
+    color: rgb(206, 99, 158);
     margin: 10px;
 }
 
@@ -65,4 +55,4 @@ body{
     .left, .main, .right {
       width:100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
-}
+

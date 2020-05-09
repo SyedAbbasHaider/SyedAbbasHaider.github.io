@@ -2,9 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Web Design Project</title>
+        <title>Parallex website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
@@ -12,20 +11,10 @@
     <body>
         
         <div class="topnav">
-            <a href="C:\Users\syedh\OneDrive\Documents\My Website\SyedAbbasHaider.github.io\contact.html">CONTACT</a>
-            <a href="C:\Users\syedh\OneDrive\Documents\My Website\SyedAbbasHaider.github.io\Work.html">WORK</a>
-            <a href="C:\Users\syedh\OneDrive\Documents\My Website\SyedAbbasHaider.github.io\index.html">HOME</a>
+            <a class="active" href="">HOME</a>
+            <a href="">PORTFOLIO</a>
+            <a href="">CONTACT</a>
         </div>
-        
-        <div class="Bio">
-            <h1>Abbas Haider</h1>
-        </div>
-
-        <div class="Intro">
-            <p>Hi, nice to meet you. I am currently senior at Rutgers university.</p>
-            <p>I have a passion for web design and love to make mobile apps.</p>
-        </div>
-    
 
         <div class="social">
             <ul>
@@ -35,5 +24,11 @@
             </ul>
         </div>
 
+        <div class="Bio">
+            <p>My name is Abbas Haider. Enjoy your time here</p>
+        </div>
+
+    
+    
     </body>
 </html>
