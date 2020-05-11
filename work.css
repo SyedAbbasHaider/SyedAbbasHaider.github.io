@@ -46,6 +46,8 @@ body{
 
 .pick_up{
     background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .pick_up img{
